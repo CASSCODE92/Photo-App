@@ -1,6 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+// import './bookmarks';
+import './home';
+import './index';
+// import './log_in';
+import './nav-bar';
+import './photo-app1';
+import './photo-app2';
+import './photo-app3';
+import './profiles';
+import './serviceWorker';
+import './setupTests';
+import './App.test';
+import './styles.css';
+
+
+
 
 function App() {
   return (

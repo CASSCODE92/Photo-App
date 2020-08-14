@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../profile_pics"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

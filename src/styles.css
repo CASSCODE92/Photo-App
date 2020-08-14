@@ -1,0 +1,65 @@
+
+/* nav bar in single column grid */
+.navBar {
+    grid-template-columns: auto auto auto;
+    padding: 4px;
+}
+
+/* navbar font and center grid alignment */
+.navList {
+    background-color: black;
+  border: 5px solid black;
+  padding: 10px black;
+  font-size: 20px;
+  text-align: center;
+  text-decoration-color: rgb(10, 227, 10);
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+.login {
+  background-color: black;
+  border: 5px solid black;
+  padding: 10px black;
+  font-size: 20px;
+  text-align: center;
+  text-decoration-color: rgb(10, 227, 10);
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* 
+https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp */
+
+@media screen and (max-width: 800px) {
+.images {
+  flex: 50%;
+    max-width: 50%;
+  }
+
+}
+
+/* profile background */
+body {
+  background-color: black;
+}
+
+/* border around images on profile pages */
+.img {
+  border: 2px solid black; 
+}
+
+/* Profile Name Customization */
+.name1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  float: right;
+  position: relative;
+  right: 30px
+
+  
+
+  
+}
